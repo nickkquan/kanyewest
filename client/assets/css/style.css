@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(211, 211, 209);
+}
+
+.mpc-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: rgb(153, 160, 172);
+	height: 75%;
+	width: 50%;
+	padding: 0.5%;
+}
+
+.key {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 23%;
+	width: 23%;
+	background-color: rgba(56, 56, 67, 1);
+	box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.2);
+	transition: all 0.7s;
+}
+
+kbd {
+	font-family: Akai;
+	font-size: 3vmax;
+	font-weight: 900;
+	color: rgba(255, 255, 255, 0.8);
+	display: block;
+	height: 50%;
+}
+
+.beat {
+	text-align: center;
+	height: 20%;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 1vmax;
+}
+
+.playing {
+	box-shadow: 0 0 10px red;
+}
+
+@font-face {
+	font-family: Akai;
+	src: url(/fonts/font.ttf);
+}
