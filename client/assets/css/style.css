@@ -32,13 +32,13 @@ body {
 	width: 23%;
 	background-color: rgba(56, 56, 67, 1);
 	box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.2);
-	transition: all 0.7s;
+	transition: all 0.7s ease;
 }
 
 kbd {
 	font-family: Akai;
 	font-size: 3vmax;
-	font-weight: 900;
+	font-weight: 700;
 	color: rgba(255, 255, 255, 0.8);
 	display: block;
 	height: 50%;
@@ -53,10 +53,11 @@ kbd {
 }
 
 .playing {
+	transform: scale(1.05);
 	box-shadow: 0 0 10px red;
 }
 
 @font-face {
 	font-family: Akai;
-	src: url(/fonts/font.ttf);
+	src: url(../fonts/font.ttf);
 }
